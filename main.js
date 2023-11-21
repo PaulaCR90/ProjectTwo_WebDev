@@ -16,7 +16,7 @@ const createHeader = () => {
   const aLogoHeader$$ = document.createElement('a')
   const imgLogoHeader$$ = document.createElement('img')
   aLogoHeader$$.href = 'https://quesoslacabezuela.com/'
-  imgLogoHeader$$.src = '/logo cabezuela.png'
+  imgLogoHeader$$.src = './assets/logo cabezuela.png'
   imgLogoHeader$$.className = 'logo'
   aLogoHeader$$.className = 'logo-a'
   aLogoHeader$$.appendChild(imgLogoHeader$$)
@@ -29,7 +29,7 @@ const createHeader = () => {
     const label$$ = document.createElement('label')
     label$$.htmlFor = 'menu'
     const menuImg$$ = document.createElement('img')
-    menuImg$$.src = './public/menu-img.png'
+    menuImg$$.src = './assets/menu-img.png'
     menuImg$$.className = 'menu_img'
 
     const ul$$ = document.createElement('ul')
@@ -74,7 +74,7 @@ const createHero = () => {
   img$$.className = 'hero-img'
   const figure$$ = document.createElement('figure')
   figure$$.className = 'hero-container'
-  img$$.src = '/cuajo header.png'
+  img$$.src = './assets/cuajo header.png'
   figure$$.appendChild(img$$)
   app$$.appendChild(figure$$)
 }

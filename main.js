@@ -16,7 +16,7 @@ const createHeader = () => {
   const aLogoHeader$$ = document.createElement('a')
   const imgLogoHeader$$ = document.createElement('img')
   aLogoHeader$$.href = 'https://quesoslacabezuela.com/'
-  imgLogoHeader$$.src = './public/logo cabezuela.png'
+  imgLogoHeader$$.src = '/logo cabezuela.png'
   imgLogoHeader$$.className = 'logo'
   aLogoHeader$$.className = 'logo-a'
   aLogoHeader$$.appendChild(imgLogoHeader$$)
@@ -74,7 +74,7 @@ const createHero = () => {
   img$$.className = 'hero-img'
   const figure$$ = document.createElement('figure')
   figure$$.className = 'hero-container'
-  img$$.src = './public/cuajo header.png'
+  img$$.src = '/cuajo header.png'
   figure$$.appendChild(img$$)
   app$$.appendChild(figure$$)
 }
